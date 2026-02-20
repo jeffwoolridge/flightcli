@@ -1,5 +1,4 @@
 package com.flightcli.flight_cli.model;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

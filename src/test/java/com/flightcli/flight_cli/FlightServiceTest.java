@@ -1,6 +1,7 @@
 package com.flightcli.flight_cli;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.flightcli.flight_cli.service.FlightService;
 import com.flightcli.model.Aircraft;
 import com.flightcli.model.Airport;
 import com.flightcli.model.City;

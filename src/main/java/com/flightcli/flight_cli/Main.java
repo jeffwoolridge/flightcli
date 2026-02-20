@@ -1,8 +1,8 @@
 package com.flightcli.flight_cli;
 
-import com.flightcli.menu.Menu;
-import com.flightcli.service.ApiClient;
-import com.flightcli.service.FlightService;
+import com.flightcli.flight_cli.menu.Menu;
+import com.flightcli.flight_cli.service.ApiClient;
+import com.flightcli.flight_cli.service.FlightService;
 
 public class Main {
 

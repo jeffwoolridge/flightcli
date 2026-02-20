@@ -1,4 +1,4 @@
-package com.flightcli.flight_cli.service;
+package com.flightcli.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.flightcli.model.Aircraft;

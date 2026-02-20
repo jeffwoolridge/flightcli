@@ -1,5 +1,4 @@
 package com.flightcli.flight_cli.service;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
