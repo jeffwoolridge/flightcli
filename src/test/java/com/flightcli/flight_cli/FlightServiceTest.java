@@ -32,7 +32,7 @@ class FlightServiceTest {
         flightService = new FlightService(apiClient);
     }
 
-    // Q1: Airports for city
+    //Airports for city
 
     @Test
     void getAirportsForCity_returnsListOfAirports() throws IOException, InterruptedException {
@@ -71,7 +71,7 @@ class FlightServiceTest {
         assertThrows(IOException.class, () -> flightService.getAirportsForCity(1L));
     }
 
-    // Q2: Aircraft for passenger
+    //Airplane for passenger
 
     @Test
     void getAircraftForPassenger_returnsListOfAircraft() throws IOException, InterruptedException {
@@ -107,7 +107,7 @@ class FlightServiceTest {
         assertThrows(InterruptedException.class, () -> flightService.getAircraftForPassenger(1L));
     }
 
-    // Q3: Airports for aircraft
+    //Airports for aircraft
 
     @Test
     void getAirportsForAircraft_returnsListOfAirports() throws IOException, InterruptedException {
@@ -138,7 +138,7 @@ class FlightServiceTest {
         assertEquals(3, result.size());
     }
 
-    // Q4: Airports for passenger
+    // Airports for passenger
 
     @Test
     void getAirportsForPassenger_returnsListOfAirports() throws IOException, InterruptedException {
